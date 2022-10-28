@@ -22,7 +22,7 @@ body{
 }
 
 h2{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .text{
@@ -31,6 +31,7 @@ h2{
     height: 100px;
     font-family: sans-serif;
     padding: 10px;
+    margin-bottom: 10px;
     box-sizing: border-box;
     border: solid 2px rgba(0, 0, 139, 0.382);
 }
