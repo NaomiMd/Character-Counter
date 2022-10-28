@@ -14,4 +14,42 @@ body{
 
 .container{
     background-color: #8EC5FC;
+    width: 400px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+}
+
+h2{
+    padding-bottom: 10px;
+}
+
+.text{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 2px rgba(0, 0, 139, 0.382);
+}
+
+.counter-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.counter-container p{
+    font-size: 18px;
+    color: rgba(39, 23, 143, 0.695);
+}
+
+.total-counter{
+    color: rgb(20, 71, 112);
+}
+
+.remaining-counter{
+    color:  #4b0948;
 }
